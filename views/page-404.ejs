@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('./partials/head') %>
+
+    <body class="404">
+        <div class="container mt-5">
+            <a href="/">Volver al home</a>
+            <h1><%= message %></h1>
+            <h2><%= error.status %></h2>
+            <pre><%= error.stack %></pre>
+        </div>
+       
+        
+    </body>
+
+</html>
